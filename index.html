@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+  <title>Document</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/latest/css/bootstrap.min.css">
+
+
+</head>
+
+
+
+<body>
+
+<div id="This my Div">
+  <div id = "GuessWordContainer"> <h4>This is guess word</h4></div>
+
+</div>
+
+<table style="width:60%">
+  <tr>
+    <th>Game Dashboard</th>
+    <th>Dashboard Indicated Value</th> 
+
+  </tr>
+  <tr>
+    <td>Word Status</td>
+    <td id = "WordStatus" >W_rl_</td> 
+
+  </tr>
+  <tr>
+    <td>Incorrect letters guessed (Max 8)</td>
+    <td id = "DivWrongGuesses"> 0</td> 
+
+  </tr>
+  <tr>
+    <td>Letters you already guessed</td>
+    <td id = "LettersProcessed"></td> 
+
+  </tr>
+
+  <tr>
+    <td>Total Wins</td>
+    <td id = "TotalWins">0</td> 
+
+  </tr>
+  <tr>
+    <td><button type="button" onclick=resetWinCount()>Click to reset counters or switch player!</button></td>
+    <td><button type="button" onclick=resetGame() >Click To Play Again</button></td> 
+
+  </tr>
+</table>
+
+
+<script src= "assets/javascript/game.js">
+</script>
+</body>
+
+</html>
